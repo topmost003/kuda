@@ -4,9 +4,9 @@ import Button from "../reusable/Button"
 
 const Header = () => {
   return (
-<div className='flex p-[50px] justify-between bg-amber-500 h-[70px] text-[#40196D] font-[15px] items-center'>
-  <main className='flex gap-3.5'>
-    <Link to="/"><img src="" alt="kuda logo" /></Link>
+<div className='flex p-[50px] justify-between bg-[#e6ddddc4] h-[70px] text-[#5d15b0] font-[15px] items-center'>
+  <main className='flex gap-3.5 items-center'>
+    <Link to="/"><img src="../../../public/download.png" alt="kuda logo"  className='w-[100px]'/></Link>
     <Link to="personal">Personal</Link>
     <Link to="business">Business</Link>
     <Link to="company">Company</Link>
